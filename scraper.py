@@ -49,4 +49,4 @@ for item in schoolIDs:
     next_link = base_url+item+'.html'
     #pass that new concatenated URL to a function, 'scrape_page', which is scripted above
     print next_link
-scrape_page(next_link)
+    scrape_page(next_link)
